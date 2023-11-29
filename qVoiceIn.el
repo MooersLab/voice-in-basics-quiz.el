@@ -1,4 +1,4 @@
-(defun list-qvoice-categories ():
+(defun list-qvoicein-categories ():
   "List the quiz categories and the number of questions in each category."
   (interactive "    Check the message buffer for the full list of categories.")
   (message
@@ -469,7 +469,7 @@
       ("1" "Correct! Explanation:   Source: ")
       (_ "Answer: smiley. Look up answer in Emacs with 1"))))
 
-(provide 'qvoice)
+(provide 'qvoicein)
 
 
 
