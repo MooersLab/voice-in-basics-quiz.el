@@ -1,5 +1,8 @@
 # voice-in-basics-quiz.el
-Interactive quiz for Voice In basic commands to be run in Emacs.
+
+## Purpose
+Interactive quiz for Voice In basic commands to be run in Emacs to improve command recall.
+
 
 ## Recommeded usage
 Run through questions on a subtopic until recall is better than 90 percent and then get back to work.
@@ -25,7 +28,6 @@ This quiz is not as elegant as the Python version, which tracks the number of co
 
 
 ## Installation
-
 1. Drop file into `.emacs.d/manual-packages/qvoicein/`.
 2. If you use use-package, add the following to the `init.el` file:
 
@@ -35,7 +37,6 @@ This quiz is not as elegant as the Python version, which tracks the number of co
 ```
 
 ## Operation
-
 Invoke a question in the minibuffer with `M-x category/q_NNN` where NNN is the quiz number between 1 and 601.
 For example, `M-x talonAlphabet/q24` will run the 24th question in the alphabet category.
 Run `M-x list-qvoicein-categories` to display a list of categories.
