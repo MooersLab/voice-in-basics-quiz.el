@@ -1,11 +1,15 @@
+![Version](https://img.shields.io/static/v1?label=voice-in-basics-quiz.el&message=0.1&color=brightcolor)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+
 # voice-in-basics-quiz.el
 
 ## Purpose
-Interactive quiz for Voice In basic commands to be run in Emacs to improve command recall.
+Interactive quiz for *Voice In* basic commands to be run in GNU Emacs to improve command recall.
 
 
-## Recommeded usage
-Run through questions on a subtopic until recall is better than 90 percent and then get back to work.
+## Recommended usage
+Run through the questions on a subtopic until recall is better than 90 percent and then get back to work.
 
 
 ## Disclaimer
